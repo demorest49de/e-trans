@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Inter;
+    src: url("../fonts/inter_cyrillic-regular.woff2") format('woff2'),
+    url('../fonts/inter_cyrillic-regular.woff') format("woff");
+    font-display: swap;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url("../fonts/inter_cyrillic-700.woff2") format('woff2'),
+    url('../fonts/inter_cyrillic-700.woff') format("woff");
+    font-display: swap;
+    font-weight: 700;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:after, before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #18171a;
+    font-family: Inter, sans-serif;
+}
+
+h1, h2, h3, p, ul {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+button {
+    padding: 0;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+input, button, textarea {
+    font: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
