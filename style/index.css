@@ -23,6 +23,7 @@ html {
 }
 
 body {
+    position: relative;
     margin: 0;
     font-size: 18px;
     line-height: 1.2;
@@ -44,6 +45,7 @@ button {
     cursor: pointer;
     background-color: transparent;
     border: none;
+    color: black;
 }
 
 input, button, textarea {
@@ -67,17 +69,51 @@ img, svg {
     padding: 0 72px;
 }
 
-.header{
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
     padding: 20px 0;
+    color: #fff;
 }
 
-.hero{
+.header__container {
+    display: grid;
+    grid-template-columns: 3fr 6fr 3fr;
+    align-items: center;
+    gap: 15px;
+}
+
+.header__link-phone {
+    justify-self: end;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: #B8FF20;
+    transition: color .3s ease-in-out;
+}
+
+.header__phone_number {
+    color: #ffffff;
+    transition: color .3s ease-in-out;
+}
+
+.header__link-phone:hover,
+.header__link-phone:hover .header__phone_number {
+    color: #CDF478;
+
+}
+
+.hero {
     background-image: url("../img/background.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding-top: 220px;
     padding-bottom: 120px;
+    color: #fff;
+
 }
 
 
