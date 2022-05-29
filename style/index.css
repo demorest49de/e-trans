@@ -324,12 +324,12 @@ img, svg {
     background-color: #B8FF20;
 }
 
-.footer__container{
+.footer__container {
     background-color: #18171a;
     color: #FFFFFF;
 }
 
-.footer__logo{
+.footer__logo {
     background-color: transparent;
     padding: 60px 0 40px 0;
 }
@@ -347,10 +347,26 @@ img, svg {
     gap: 10px;
 }
 
-.footer__title{
+.footer__title {
     padding-bottom: 10px;
 }
 
-.footer__contacts__list{
+.footer__contacts__list {
     gap: 10px;
 }
+
+.footer_item {
+    transition: color .3s ease-in-out;
+}
+
+.footer_item:hover {
+    color: #CDF478;
+}
+
+/*.navigation__item {*/
+/*    transition: color .3s ease-in-out;*/
+/*}*/
+
+/*.navigation__item:hover {*/
+/*    */
+/*}*/
