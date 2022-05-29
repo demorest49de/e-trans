@@ -13,7 +13,7 @@ const init = () => {
         {},
         {
             iconLayout: 'default#image',
-            iconImageHref: 'img/mark.svg',
+            iconImageHref: 'img/marker.svg',
             iconImageSize: [70, 70],
             iconImageOffset: [-35, -70],
         },
